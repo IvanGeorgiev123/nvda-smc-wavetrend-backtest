@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+# price data is downloaded on the first run (Yahoo Finance terms do not allow redistribution)
+data/
+
+# scratch copies of the original Pine scripts (not part of the project)
+*.pine.txt
+CV_TEXT.md
